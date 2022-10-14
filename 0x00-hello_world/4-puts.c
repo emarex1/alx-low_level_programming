@@ -1,9 +1,6 @@
 #include <stdio.h>
 
-
-
-/*
- *
+/**
  * main - Entry point
  *
  *
@@ -13,6 +10,8 @@
  */
 
 int main(void)
+
+/* prints to the screen */
 
 {
 
