@@ -1,6 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
-#include "main.h"
+#include <main.h>
 
 ar *_strcat(char *dest, char *src);
 
