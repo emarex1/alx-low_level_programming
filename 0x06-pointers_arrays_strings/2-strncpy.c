@@ -4,19 +4,12 @@
 
 
 /**
-
- * *_strncpy - copies the string pointed to by src.
-
+ *_strncpy - copies the string pointed to by src.
  *
-
  * @dest: pointer to the buffer.
-
  * @src: pointer to the source string.
-
  * @n: length of src.
-
- * Return: char
-
+ * Return: chr
  */
 
 char *_strncpy(char *dest, char *src, int n)
