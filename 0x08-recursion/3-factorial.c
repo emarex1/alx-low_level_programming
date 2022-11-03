@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * factorial - factorial of n
+ * factorial - factorial n
+ * @n: integer arams
  * Return: recursion
  */
 
