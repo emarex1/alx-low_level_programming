@@ -10,7 +10,7 @@ int sum_dlistint(dlistint_t *head);
 
 {
 
-    current = *head;
+    current = head;
     int sum = 0;
     while(current)
     {
