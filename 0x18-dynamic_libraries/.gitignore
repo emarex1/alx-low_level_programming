@@ -1,2 +1,4 @@
-ignore all *.o files
-ignore all *.c files
+# ignore all *.o files
+# ignore all *.c files
+*.c
+*.o
