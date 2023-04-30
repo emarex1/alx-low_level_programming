@@ -2,8 +2,8 @@
 
 /**
  * print_diagonal - prints diagonal line n times.
- * @n: times diagonal line is printed.
- * Return: no return.
+ * @n: times diagonal line is printed on the terminal.
+ * Return: returns 0.
  */
 void print_diagonal(int n)
 {
