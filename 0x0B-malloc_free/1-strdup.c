@@ -11,17 +11,22 @@
  */
 char *_strdup(char *str)
 {
+	char *strout;
+	unsigned int i, j;
+
 	if (str == NULL)
-		return NULL;
+		return (NULL);
 
-	size_t length = strlen(str);
-	char *duplicate = malloc((length + 1) * sizeof(char));
+	for (i = 0; str[i] != '\0'; i++)
+		;
 
-	if (duplicate == NULL)
-		return NULL;
+	strout = (char *)malloc(sizeof(char) * (i + 1));
 
-	strcpy(duplicate, str);
+	if (strout == NULL)
+		return (NULL);
 
-	return duplicate;
+	for (j = 0; j <= i; j++)
+		strout[j] = str[j];
+
+	return (strout);
 }
-
